@@ -10,12 +10,10 @@
 ;MAXZ:16
 ;TARGET_MACHINE.NAME:Creality Ender-3
 ;Generated with Cura_SteamEngine 5.9.0
-M140 S50
-M105
-M190 S50
-M104 S200
-M105
-M109 S200
+M140 S90
+M104 S245
+M190 S90
+M109 S245
 M82 ;absolute extrusion mode
 ; Ender 3 Custom Start G-code
 G92 E0 ; Reset Extruder
